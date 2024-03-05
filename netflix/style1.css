@@ -1,0 +1,142 @@
+/* Sign in page*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(./Netflix.jpg);
+    background-blend-mode: darken;
+}
+
+.logo{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.inp{
+    height: 47px;
+    width: 320px;
+   
+    margin-top: 10px;
+    background-color: #333;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+    border:none
+    
+}
+
+.inp::placeholder{
+    font-weight: 10;
+    font-size: 17px;
+   padding: 12px;
+    color: #8c8c8c;
+    
+}
+
+
+
+.para{
+    color: white;
+    margin-top: 90px;
+    padding-top: 60px;
+    margin-left: 50px;
+    
+}
+
+
+
+/*.jj{
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    width: 30%;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+}*/
+
+.jj{
+    margin-left: 50%;
+   margin: auto;
+    margin-top: 1%;
+    width: 440px;
+    height: 550px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7));
+    
+
+}
+
+#mama{
+    height: 47px;
+    width: 320px;
+   border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 54px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+.yup{
+    color: #b3b3b3;
+    display: inline;
+    justify-content: space-between;
+    font-size: 12px ;
+    margin-top: 10px;
+     
+}
+
+.form {
+    color: #b3b3b3;
+    display: inline;
+    justify-content: space-between;
+    font-size: 12px ;
+    margin-top: 10px;
+    text-decoration: none;
+    padding-right: 20px;
+    float: right;
+
+}
+
+.tom{
+position: absolute;
+margin-top: 80px;
+font-size: 9px;
+margin-left: 55px;
+}
+
+.tom h2{
+    color: #8c8c8c;
+}
+
+.tom a{
+    color: white;
+    text-decoration: none;
+}
+
+#rap{
+    font-size: 12px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ;
+   
+    justify-content: space-around;
+   color: rgb(141, 141, 142);
+   font-size: 15px;
+   margin-top: 100px;
+ 
+   margin-left: 0%;
+   }

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./Netflix.jpg);
+}
+
+.logo{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: auto;
+}
+
+.option{
+    padding: 5px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    align-items: end;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+     margin-left: 50%;
+     margin-right: 0px;
+     border-radius: 5px;}
+
+
+.signin{
+    background-color: red;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+  
+    border: none;
+    margin-left: 0px ;
+    
+}
+
+
+.center{
+    display: block;
+    margin-bottom: auto;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 0%; 
+   
+}
+
+.h1{
+    font-size: 50px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+    font-weight: 700;
+    
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 0%;
+    
+}
+
+.p1{
+    
+    text-align: center;
+    margin: 20px;
+    margin-top: 0%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.p2{
+    
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.email{
+    align-items: center;
+    padding: 20px;
+    width: 35%;
+    margin-top: 40px;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) ;
+    border: 1px solid #f5efef;
+    border-radius: 2px;
+    margin-left: 25%;
+    color: transparent;
+
+}
+.email::placeholder{
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    font-weight: 150;
+}
+
+.go{
+    background-color: rgb(229, 9, 20);
+    width: 25%;
+    color: white;
+    padding: 19px;
+    margin-top: 40px;
+    height: 60px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 10px;
+
+}
+
+.go:hover{
+    background-color: rgb(143, 20, 20);
+}
